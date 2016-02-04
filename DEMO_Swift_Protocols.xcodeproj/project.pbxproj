@@ -14,6 +14,8 @@
 		328F18841C63C353006D4478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328F18821C63C353006D4478 /* LaunchScreen.storyboard */; };
 		328F188F1C63C354006D4478 /* DEMO_Swift_ProtocolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F188E1C63C354006D4478 /* DEMO_Swift_ProtocolsTests.swift */; };
 		328F189A1C63C354006D4478 /* DEMO_Swift_ProtocolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18991C63C354006D4478 /* DEMO_Swift_ProtocolsUITests.swift */; };
+		328F18AA1C63C97A006D4478 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 328F18A81C63C97A006D4478 /* LICENSE */; };
+		328F18AB1C63C97A006D4478 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 328F18A91C63C97A006D4478 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		328F18991C63C354006D4478 /* DEMO_Swift_ProtocolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEMO_Swift_ProtocolsUITests.swift; sourceTree = "<group>"; };
 		328F189B1C63C354006D4478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		328F18A71C63C369006D4478 /* Demo 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Demo 1.playground"; sourceTree = "<group>"; };
+		328F18A81C63C97A006D4478 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		328F18A91C63C97A006D4478 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 		328F186D1C63C353006D4478 = {
 			isa = PBXGroup;
 			children = (
+				328F18A81C63C97A006D4478 /* LICENSE */,
+				328F18A91C63C97A006D4478 /* README.md */,
 				328F18A71C63C369006D4478 /* Demo 1.playground */,
 				328F18781C63C353006D4478 /* DEMO_Swift_Protocols */,
 				328F188D1C63C354006D4478 /* DEMO_Swift_ProtocolsTests */,
@@ -233,6 +239,7 @@
 			files = (
 				328F18841C63C353006D4478 /* LaunchScreen.storyboard in Resources */,
 				328F18811C63C353006D4478 /* Assets.xcassets in Resources */,
+				328F18AA1C63C97A006D4478 /* LICENSE in Resources */,
 				328F187F1C63C353006D4478 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				328F18AB1C63C97A006D4478 /* README.md in Sources */,
 				328F187C1C63C353006D4478 /* ViewController.swift in Sources */,
 				328F187A1C63C353006D4478 /* AppDelegate.swift in Sources */,
 			);
