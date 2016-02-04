@@ -47,6 +47,7 @@
 		328F18951C63C354006D4478 /* DEMO_Swift_ProtocolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DEMO_Swift_ProtocolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		328F18991C63C354006D4478 /* DEMO_Swift_ProtocolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEMO_Swift_ProtocolsUITests.swift; sourceTree = "<group>"; };
 		328F189B1C63C354006D4478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328F18A71C63C369006D4478 /* Demo 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Demo 1.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		328F186D1C63C353006D4478 = {
 			isa = PBXGroup;
 			children = (
+				328F18A71C63C369006D4478 /* Demo 1.playground */,
 				328F18781C63C353006D4478 /* DEMO_Swift_Protocols */,
 				328F188D1C63C354006D4478 /* DEMO_Swift_ProtocolsTests */,
 				328F18981C63C354006D4478 /* DEMO_Swift_ProtocolsUITests */,
