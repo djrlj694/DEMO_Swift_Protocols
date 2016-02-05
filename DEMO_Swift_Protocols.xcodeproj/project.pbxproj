@@ -37,6 +37,7 @@
 		328F18E11C650015006D4478 /* Ellipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18E01C650015006D4478 /* Ellipse.swift */; };
 		328F18E31C650323006D4478 /* Perimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18E21C650323006D4478 /* Perimeter.swift */; };
 		328F18E51C650C80006D4478 /* Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18E41C650C80006D4478 /* Length.swift */; };
+		328F18E71C656C58006D4478 /* Geography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18E61C656C58006D4478 /* Geography.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		328F18E01C650015006D4478 /* Ellipse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ellipse.swift; sourceTree = "<group>"; };
 		328F18E21C650323006D4478 /* Perimeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Perimeter.swift; sourceTree = "<group>"; };
 		328F18E41C650C80006D4478 /* Length.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Length.swift; sourceTree = "<group>"; };
+		328F18E61C656C58006D4478 /* Geography.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geography.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 				328F18DE1C650002006D4478 /* Circle.swift */,
 				328F18E01C650015006D4478 /* Ellipse.swift */,
 				328F18DC1C64FFE6006D4478 /* Polygon.swift */,
+				328F18E61C656C58006D4478 /* Geography.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				328F18DF1C650002006D4478 /* Circle.swift in Sources */,
 				328F18AB1C63C97A006D4478 /* README.md in Sources */,
 				328F18DD1C64FFE6006D4478 /* Polygon.swift in Sources */,
+				328F18E71C656C58006D4478 /* Geography.swift in Sources */,
 				328F18C01C63F887006D4478 /* Macros.swift in Sources */,
 				328F18D71C64F093006D4478 /* Countable.swift in Sources */,
 				328F18E51C650C80006D4478 /* Length.swift in Sources */,
