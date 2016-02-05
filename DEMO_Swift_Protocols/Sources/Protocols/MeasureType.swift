@@ -12,42 +12,11 @@
 
 import HealthKit
 
-// DOES NOT WORK
 protocol MeasureType
 {
-    var unit: HKUnit { get set }
-    var quantity: HKQuantity { get set }
-    var quantityType: UnitSystem { get set }
+    var unit: String { get set }
+//    var quantity: HKQuantity { get set } // Equivalent to quantity.doubleValueForUnit(unit)
+    var value: Double { get set } // Equivalent to quantity.doubleValueForUnit(unit)
+    
+//    var string: String { get }           // Equivalent to quantity.description
 }
-
-// WORKS
-/*
-struct MeasureType
-{
-    var unit: HKUnit
-    var quantity: HKQuantity
-    var quantityType: UnitSystem
-}
-*/
-
-// MARK: Hashable
-
-/*
-extension MeasureType where Self: Hashable {
-//extension MeasureType: Hashable {
-    var hashValue: Int {
-        return unit.hashValue ^ quantity.hashValue ^ quantityType.hashValue
-    }
-}
-
-
-// MARK: Equatable
-
-func ==(lhs: MeasureType, rhs: MeasureType) -> Bool {
-    return lhs.unit == rhs.unit && lhs.quantity == rhs.quantity && lhs.quantityType == rhs.quantityType
-}
-
-func !=(lhs: MeasureType, rhs: MeasureType) -> Bool {
-    return lhs.unit != rhs.unit && lhs.quantity != rhs.quantity && lhs.quantityType != rhs.quantityType
-}
-*/

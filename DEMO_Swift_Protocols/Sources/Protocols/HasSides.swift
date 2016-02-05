@@ -1,5 +1,5 @@
 //
-//  HasWeight.swift
+//  HasSides.swift
 //  DEMO_Swift_Protocols
 //
 //  Created by Robert L. Jones on 2/4/16.
@@ -11,6 +11,6 @@
 
 import Foundation
 
-protocol HasWeight {
-    var mass: MeasureType { get }
+protocol HasSides {
+    var sides: Sides { get }
 }

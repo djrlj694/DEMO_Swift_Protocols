@@ -1,5 +1,5 @@
 //
-//  HasHeight.swift
+//  HasPopulation.swift
 //  DEMO_Swift_Protocols
 //
 //  Created by Robert L. Jones on 2/4/16.
@@ -11,6 +11,6 @@
 
 import Foundation
 
-protocol HasHeight {
-    var height: MeasureType { get }
+protocol HasPopulation {
+    var population: Population { get }
 }

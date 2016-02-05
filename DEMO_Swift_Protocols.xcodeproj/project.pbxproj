@@ -14,7 +14,6 @@
 		328F189A1C63C354006D4478 /* DEMO_Swift_ProtocolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18991C63C354006D4478 /* DEMO_Swift_ProtocolsUITests.swift */; };
 		328F18AA1C63C97A006D4478 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 328F18A81C63C97A006D4478 /* LICENSE */; };
 		328F18AB1C63C97A006D4478 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 328F18A91C63C97A006D4478 /* README.md */; };
-		328F18AD1C63DFA4006D4478 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328F18AC1C63DFA4006D4478 /* HealthKit.framework */; };
 		328F18B71C63E716006D4478 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18B11C63E716006D4478 /* ViewController.swift */; };
 		328F18B81C63E716006D4478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18B41C63E716006D4478 /* AppDelegate.swift */; };
 		328F18BA1C63EC0C006D4478 /* MeasureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18B91C63EC0C006D4478 /* MeasureType.swift */; };
@@ -22,8 +21,22 @@
 		328F18BE1C63F0EC006D4478 /* Measurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18BD1C63F0EC006D4478 /* Measurable.swift */; };
 		328F18C01C63F887006D4478 /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18BF1C63F887006D4478 /* Macros.swift */; };
 		328F18C41C6408BC006D4478 /* HasArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18C31C6408BC006D4478 /* HasArea.swift */; };
-		328F18C61C6408D8006D4478 /* HasWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18C51C6408D8006D4478 /* HasWeight.swift */; };
-		328F18C81C6408F2006D4478 /* HasHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18C71C6408F2006D4478 /* HasHeight.swift */; };
+		328F18C61C6408D8006D4478 /* HasSides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18C51C6408D8006D4478 /* HasSides.swift */; };
+		328F18C81C6408F2006D4478 /* HasPopulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18C71C6408F2006D4478 /* HasPopulation.swift */; };
+		328F18CA1C64C688006D4478 /* CountType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18C91C64C688006D4478 /* CountType.swift */; };
+		328F18CD1C64D76B006D4478 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328F18CC1C64D76B006D4478 /* HealthKit.framework */; };
+		328F18CF1C64DCDD006D4478 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18CE1C64DCDD006D4478 /* Area.swift */; };
+		328F18D11C64DCED006D4478 /* Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18D01C64DCED006D4478 /* Population.swift */; };
+		328F18D31C64DD10006D4478 /* Sides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18D21C64DD10006D4478 /* Sides.swift */; };
+		328F18D51C64E48F006D4478 /* BiomeasureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18D41C64E48F006D4478 /* BiomeasureType.swift */; };
+		328F18D71C64F093006D4478 /* Countable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18D61C64F093006D4478 /* Countable.swift */; };
+		328F18D91C64F0EB006D4478 /* Quantifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18D81C64F0EB006D4478 /* Quantifiable.swift */; };
+		328F18DB1C64FA6F006D4478 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18DA1C64FA6F006D4478 /* Shape.swift */; };
+		328F18DD1C64FFE6006D4478 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18DC1C64FFE6006D4478 /* Polygon.swift */; };
+		328F18DF1C650002006D4478 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18DE1C650002006D4478 /* Circle.swift */; };
+		328F18E11C650015006D4478 /* Ellipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18E01C650015006D4478 /* Ellipse.swift */; };
+		328F18E31C650323006D4478 /* Perimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18E21C650323006D4478 /* Perimeter.swift */; };
+		328F18E51C650C80006D4478 /* Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18E41C650C80006D4478 /* Length.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +71,6 @@
 		328F18A71C63C369006D4478 /* Demo 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Demo 1.playground"; sourceTree = "<group>"; };
 		328F18A81C63C97A006D4478 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		328F18A91C63C97A006D4478 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		328F18AC1C63DFA4006D4478 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		328F18B11C63E716006D4478 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		328F18B41C63E716006D4478 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		328F18B91C63EC0C006D4478 /* MeasureType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureType.swift; sourceTree = "<group>"; };
@@ -66,8 +78,23 @@
 		328F18BD1C63F0EC006D4478 /* Measurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Measurable.swift; sourceTree = "<group>"; };
 		328F18BF1C63F887006D4478 /* Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
 		328F18C31C6408BC006D4478 /* HasArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasArea.swift; sourceTree = "<group>"; };
-		328F18C51C6408D8006D4478 /* HasWeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasWeight.swift; sourceTree = "<group>"; };
-		328F18C71C6408F2006D4478 /* HasHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasHeight.swift; sourceTree = "<group>"; };
+		328F18C51C6408D8006D4478 /* HasSides.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasSides.swift; sourceTree = "<group>"; };
+		328F18C71C6408F2006D4478 /* HasPopulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasPopulation.swift; sourceTree = "<group>"; };
+		328F18C91C64C688006D4478 /* CountType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountType.swift; sourceTree = "<group>"; };
+		328F18CB1C64D76B006D4478 /* DEMO_Swift_Protocols.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DEMO_Swift_Protocols.entitlements; sourceTree = "<group>"; };
+		328F18CC1C64D76B006D4478 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		328F18CE1C64DCDD006D4478 /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		328F18D01C64DCED006D4478 /* Population.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Population.swift; sourceTree = "<group>"; };
+		328F18D21C64DD10006D4478 /* Sides.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sides.swift; sourceTree = "<group>"; };
+		328F18D41C64E48F006D4478 /* BiomeasureType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiomeasureType.swift; sourceTree = "<group>"; };
+		328F18D61C64F093006D4478 /* Countable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Countable.swift; sourceTree = "<group>"; };
+		328F18D81C64F0EB006D4478 /* Quantifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quantifiable.swift; sourceTree = "<group>"; };
+		328F18DA1C64FA6F006D4478 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		328F18DC1C64FFE6006D4478 /* Polygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
+		328F18DE1C650002006D4478 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		328F18E01C650015006D4478 /* Ellipse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ellipse.swift; sourceTree = "<group>"; };
+		328F18E21C650323006D4478 /* Perimeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Perimeter.swift; sourceTree = "<group>"; };
+		328F18E41C650C80006D4478 /* Length.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Length.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				328F18AD1C63DFA4006D4478 /* HealthKit.framework in Frameworks */,
+				328F18CD1C64D76B006D4478 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +126,7 @@
 		328F186D1C63C353006D4478 = {
 			isa = PBXGroup;
 			children = (
+				328F18CC1C64D76B006D4478 /* HealthKit.framework */,
 				328F18A81C63C97A006D4478 /* LICENSE */,
 				328F18A91C63C97A006D4478 /* README.md */,
 				328F18A71C63C369006D4478 /* Demo 1.playground */,
@@ -106,7 +134,6 @@
 				328F188D1C63C354006D4478 /* DEMO_Swift_ProtocolsTests */,
 				328F18981C63C354006D4478 /* DEMO_Swift_ProtocolsUITests */,
 				328F18771C63C353006D4478 /* Products */,
-				328F18AC1C63DFA4006D4478 /* HealthKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +150,7 @@
 		328F18781C63C353006D4478 /* DEMO_Swift_Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				328F18CB1C64D76B006D4478 /* DEMO_Swift_Protocols.entitlements */,
 				328F18AE1C63E716006D4478 /* Sources */,
 				328F187D1C63C353006D4478 /* Main.storyboard */,
 				328F18801C63C353006D4478 /* Assets.xcassets */,
@@ -182,6 +210,15 @@
 		328F18B21C63E716006D4478 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				328F18CE1C64DCDD006D4478 /* Area.swift */,
+				328F18E41C650C80006D4478 /* Length.swift */,
+				328F18E21C650323006D4478 /* Perimeter.swift */,
+				328F18D01C64DCED006D4478 /* Population.swift */,
+				328F18D21C64DD10006D4478 /* Sides.swift */,
+				328F18DA1C64FA6F006D4478 /* Shape.swift */,
+				328F18DE1C650002006D4478 /* Circle.swift */,
+				328F18E01C650015006D4478 /* Ellipse.swift */,
+				328F18DC1C64FFE6006D4478 /* Polygon.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -198,12 +235,16 @@
 		328F18B51C63E716006D4478 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				328F18D41C64E48F006D4478 /* BiomeasureType.swift */,
+				328F18D61C64F093006D4478 /* Countable.swift */,
+				328F18C91C64C688006D4478 /* CountType.swift */,
 				328F18C31C6408BC006D4478 /* HasArea.swift */,
-				328F18C71C6408F2006D4478 /* HasHeight.swift */,
-				328F18C51C6408D8006D4478 /* HasWeight.swift */,
+				328F18C71C6408F2006D4478 /* HasPopulation.swift */,
+				328F18C51C6408D8006D4478 /* HasSides.swift */,
 				328F18BF1C63F887006D4478 /* Macros.swift */,
 				328F18BD1C63F0EC006D4478 /* Measurable.swift */,
 				328F18B91C63EC0C006D4478 /* MeasureType.swift */,
+				328F18D81C64F0EB006D4478 /* Quantifiable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -283,6 +324,12 @@
 				TargetAttributes = {
 					328F18751C63C353006D4478 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NDSC68WGUP;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					328F18891C63C354006D4478 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -349,14 +396,27 @@
 			files = (
 				328F18BC1C63F081006D4478 /* Constants.swift in Sources */,
 				328F18BA1C63EC0C006D4478 /* MeasureType.swift in Sources */,
+				328F18D11C64DCED006D4478 /* Population.swift in Sources */,
 				328F18BE1C63F0EC006D4478 /* Measurable.swift in Sources */,
+				328F18CA1C64C688006D4478 /* CountType.swift in Sources */,
+				328F18DF1C650002006D4478 /* Circle.swift in Sources */,
 				328F18AB1C63C97A006D4478 /* README.md in Sources */,
+				328F18DD1C64FFE6006D4478 /* Polygon.swift in Sources */,
 				328F18C01C63F887006D4478 /* Macros.swift in Sources */,
-				328F18C61C6408D8006D4478 /* HasWeight.swift in Sources */,
+				328F18D71C64F093006D4478 /* Countable.swift in Sources */,
+				328F18E51C650C80006D4478 /* Length.swift in Sources */,
+				328F18C61C6408D8006D4478 /* HasSides.swift in Sources */,
+				328F18D51C64E48F006D4478 /* BiomeasureType.swift in Sources */,
 				328F18C41C6408BC006D4478 /* HasArea.swift in Sources */,
 				328F18B71C63E716006D4478 /* ViewController.swift in Sources */,
+				328F18D31C64DD10006D4478 /* Sides.swift in Sources */,
+				328F18E31C650323006D4478 /* Perimeter.swift in Sources */,
+				328F18E11C650015006D4478 /* Ellipse.swift in Sources */,
+				328F18DB1C64FA6F006D4478 /* Shape.swift in Sources */,
 				328F18B81C63E716006D4478 /* AppDelegate.swift in Sources */,
-				328F18C81C6408F2006D4478 /* HasHeight.swift in Sources */,
+				328F18CF1C64DCDD006D4478 /* Area.swift in Sources */,
+				328F18D91C64F0EB006D4478 /* Quantifiable.swift in Sources */,
+				328F18C81C6408F2006D4478 /* HasPopulation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,10 +558,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DEMO_Swift_Protocols/DEMO_Swift_Protocols.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DEMO_Swift_Protocols/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.synthelytics.DEMO-Swift-Protocols";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -509,10 +573,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DEMO_Swift_Protocols/DEMO_Swift_Protocols.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DEMO_Swift_Protocols/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.synthelytics.DEMO-Swift-Protocols";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

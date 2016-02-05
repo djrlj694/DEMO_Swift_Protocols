@@ -10,7 +10,7 @@ protocol Measurable
     var quantity: HKQuantity { get }
     var quantityType: UnitSystem { get }
     */
-    var measurements: Set<Measurement> { get }
+//    var measurements: Set<Measurement> { get }
 }
 
 // SOURCE: https://en.wikipedia.org/wiki/Units_of_measurement#Metric_systems
@@ -40,8 +40,22 @@ enum UnitType
     case Volume                // HealthKit unit
 }
 
+/*
 struct Measurement, Hashable {
     var unit: HKUnit
     var quantity: HKQuantity
     var quantityType: UnitSystem
 }
+*/
+
+let km2Unit = HKUnit(fromString: "km^2")
+print(km2Unit.unitString)
+let a = "foo"
+
+let area = HKQuantity(unit: km2Unit, doubleValue: 4)
+
+area.description
+area.doubleValueForUnit(km2Unit)
+area.doubleValueForUnit(HKUnit(fromString: "km^2"))
+
+

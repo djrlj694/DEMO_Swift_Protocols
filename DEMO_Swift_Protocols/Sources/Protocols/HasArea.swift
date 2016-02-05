@@ -12,6 +12,5 @@
 import Foundation
 
 protocol HasArea {
-//    var area: Double { get }
-    var area: MeasureType { get }
+    var area: Area { get }
 }
