@@ -17,6 +17,13 @@
 		328F18AD1C63DFA4006D4478 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328F18AC1C63DFA4006D4478 /* HealthKit.framework */; };
 		328F18B71C63E716006D4478 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18B11C63E716006D4478 /* ViewController.swift */; };
 		328F18B81C63E716006D4478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18B41C63E716006D4478 /* AppDelegate.swift */; };
+		328F18BA1C63EC0C006D4478 /* MeasureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18B91C63EC0C006D4478 /* MeasureType.swift */; };
+		328F18BC1C63F081006D4478 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18BB1C63F081006D4478 /* Constants.swift */; };
+		328F18BE1C63F0EC006D4478 /* Measurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18BD1C63F0EC006D4478 /* Measurable.swift */; };
+		328F18C01C63F887006D4478 /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18BF1C63F887006D4478 /* Macros.swift */; };
+		328F18C41C6408BC006D4478 /* HasArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18C31C6408BC006D4478 /* HasArea.swift */; };
+		328F18C61C6408D8006D4478 /* HasWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18C51C6408D8006D4478 /* HasWeight.swift */; };
+		328F18C81C6408F2006D4478 /* HasHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18C71C6408F2006D4478 /* HasHeight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +61,13 @@
 		328F18AC1C63DFA4006D4478 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		328F18B11C63E716006D4478 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		328F18B41C63E716006D4478 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		328F18B91C63EC0C006D4478 /* MeasureType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureType.swift; sourceTree = "<group>"; };
+		328F18BB1C63F081006D4478 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		328F18BD1C63F0EC006D4478 /* Measurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Measurable.swift; sourceTree = "<group>"; };
+		328F18BF1C63F887006D4478 /* Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
+		328F18C31C6408BC006D4478 /* HasArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasArea.swift; sourceTree = "<group>"; };
+		328F18C51C6408D8006D4478 /* HasWeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasWeight.swift; sourceTree = "<group>"; };
+		328F18C71C6408F2006D4478 /* HasHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasHeight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +153,8 @@
 		328F18AE1C63E716006D4478 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				328F18AF1C63E716006D4478 /* Categories */,
 				328F18B01C63E716006D4478 /* Controllers */,
+				328F18AF1C63E716006D4478 /* Extensions */,
 				328F18B21C63E716006D4478 /* Models */,
 				328F18B31C63E716006D4478 /* Others */,
 				328F18B51C63E716006D4478 /* Protocols */,
@@ -149,10 +163,11 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		328F18AF1C63E716006D4478 /* Categories */ = {
+		328F18AF1C63E716006D4478 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = Extensions;
 			path = Categories;
 			sourceTree = "<group>";
 		};
@@ -175,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				328F18B41C63E716006D4478 /* AppDelegate.swift */,
+				328F18BB1C63F081006D4478 /* Constants.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -182,6 +198,12 @@
 		328F18B51C63E716006D4478 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				328F18C31C6408BC006D4478 /* HasArea.swift */,
+				328F18C71C6408F2006D4478 /* HasHeight.swift */,
+				328F18C51C6408D8006D4478 /* HasWeight.swift */,
+				328F18BF1C63F887006D4478 /* Macros.swift */,
+				328F18BD1C63F0EC006D4478 /* Measurable.swift */,
+				328F18B91C63EC0C006D4478 /* MeasureType.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -325,9 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				328F18BC1C63F081006D4478 /* Constants.swift in Sources */,
+				328F18BA1C63EC0C006D4478 /* MeasureType.swift in Sources */,
+				328F18BE1C63F0EC006D4478 /* Measurable.swift in Sources */,
 				328F18AB1C63C97A006D4478 /* README.md in Sources */,
+				328F18C01C63F887006D4478 /* Macros.swift in Sources */,
+				328F18C61C6408D8006D4478 /* HasWeight.swift in Sources */,
+				328F18C41C6408BC006D4478 /* HasArea.swift in Sources */,
 				328F18B71C63E716006D4478 /* ViewController.swift in Sources */,
 				328F18B81C63E716006D4478 /* AppDelegate.swift in Sources */,
+				328F18C81C6408F2006D4478 /* HasHeight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
