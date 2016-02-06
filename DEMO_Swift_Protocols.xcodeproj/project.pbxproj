@@ -38,8 +38,7 @@
 		328F18E31C650323006D4478 /* Perimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18E21C650323006D4478 /* Perimeter.swift */; };
 		328F18E51C650C80006D4478 /* Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18E41C650C80006D4478 /* Length.swift */; };
 		328F18E71C656C58006D4478 /* Geography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18E61C656C58006D4478 /* Geography.swift */; };
-		328F18E91C657E0F006D4478 /* NorthAmerica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18E81C657E0F006D4478 /* NorthAmerica.swift */; };
-		328F18EB1C6583C3006D4478 /* Europe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18EA1C6583C3006D4478 /* Europe.swift */; };
+		328F18ED1C65888B006D4478 /* Continent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F18EC1C65888B006D4478 /* Continent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,8 +98,7 @@
 		328F18E21C650323006D4478 /* Perimeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Perimeter.swift; sourceTree = "<group>"; };
 		328F18E41C650C80006D4478 /* Length.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Length.swift; sourceTree = "<group>"; };
 		328F18E61C656C58006D4478 /* Geography.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geography.swift; sourceTree = "<group>"; };
-		328F18E81C657E0F006D4478 /* NorthAmerica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NorthAmerica.swift; sourceTree = "<group>"; };
-		328F18EA1C6583C3006D4478 /* Europe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Europe.swift; sourceTree = "<group>"; };
+		328F18EC1C65888B006D4478 /* Continent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Continent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,8 +224,7 @@
 				328F18E01C650015006D4478 /* Ellipse.swift */,
 				328F18DC1C64FFE6006D4478 /* Polygon.swift */,
 				328F18E61C656C58006D4478 /* Geography.swift */,
-				328F18EA1C6583C3006D4478 /* Europe.swift */,
-				328F18E81C657E0F006D4478 /* NorthAmerica.swift */,
+				328F18EC1C65888B006D4478 /* Continent.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -405,10 +402,8 @@
 			files = (
 				328F18BC1C63F081006D4478 /* Constants.swift in Sources */,
 				328F18BA1C63EC0C006D4478 /* MeasureType.swift in Sources */,
-				328F18E91C657E0F006D4478 /* NorthAmerica.swift in Sources */,
 				328F18D11C64DCED006D4478 /* Population.swift in Sources */,
 				328F18BE1C63F0EC006D4478 /* Measurable.swift in Sources */,
-				328F18EB1C6583C3006D4478 /* Europe.swift in Sources */,
 				328F18CA1C64C688006D4478 /* CountType.swift in Sources */,
 				328F18DF1C650002006D4478 /* Circle.swift in Sources */,
 				328F18AB1C63C97A006D4478 /* README.md in Sources */,
@@ -426,6 +421,7 @@
 				328F18E11C650015006D4478 /* Ellipse.swift in Sources */,
 				328F18DB1C64FA6F006D4478 /* Shape.swift in Sources */,
 				328F18B81C63E716006D4478 /* AppDelegate.swift in Sources */,
+				328F18ED1C65888B006D4478 /* Continent.swift in Sources */,
 				328F18CF1C64DCDD006D4478 /* Area.swift in Sources */,
 				328F18D91C64F0EB006D4478 /* Quantifiable.swift in Sources */,
 				328F18C81C6408F2006D4478 /* HasPopulation.swift in Sources */,
