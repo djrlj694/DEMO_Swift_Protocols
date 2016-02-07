@@ -214,17 +214,9 @@
 		328F18B21C63E716006D4478 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				328F18CE1C64DCDD006D4478 /* Area.swift */,
-				328F18E41C650C80006D4478 /* Length.swift */,
-				328F18E21C650323006D4478 /* Perimeter.swift */,
-				328F18D01C64DCED006D4478 /* Population.swift */,
-				328F18D21C64DD10006D4478 /* Sides.swift */,
-				328F18DA1C64FA6F006D4478 /* Shape.swift */,
-				328F18DE1C650002006D4478 /* Circle.swift */,
-				328F18E01C650015006D4478 /* Ellipse.swift */,
-				328F18DC1C64FFE6006D4478 /* Polygon.swift */,
-				328F18E61C656C58006D4478 /* Geography.swift */,
-				328F18EC1C65888B006D4478 /* Continent.swift */,
+				3294282F1C676B5400CCEEE0 /* Geographies */,
+				3294282D1C676B1300CCEEE0 /* Measures */,
+				3294282E1C676B2B00CCEEE0 /* Shapes */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -260,6 +252,38 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3294282D1C676B1300CCEEE0 /* Measures */ = {
+			isa = PBXGroup;
+			children = (
+				328F18CE1C64DCDD006D4478 /* Area.swift */,
+				328F18E41C650C80006D4478 /* Length.swift */,
+				328F18E21C650323006D4478 /* Perimeter.swift */,
+				328F18D01C64DCED006D4478 /* Population.swift */,
+				328F18D21C64DD10006D4478 /* Sides.swift */,
+			);
+			name = Measures;
+			sourceTree = "<group>";
+		};
+		3294282E1C676B2B00CCEEE0 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				328F18DA1C64FA6F006D4478 /* Shape.swift */,
+				328F18DE1C650002006D4478 /* Circle.swift */,
+				328F18E01C650015006D4478 /* Ellipse.swift */,
+				328F18DC1C64FFE6006D4478 /* Polygon.swift */,
+			);
+			name = Shapes;
+			sourceTree = "<group>";
+		};
+		3294282F1C676B5400CCEEE0 /* Geographies */ = {
+			isa = PBXGroup;
+			children = (
+				328F18EC1C65888B006D4478 /* Continent.swift */,
+				328F18E61C656C58006D4478 /* Geography.swift */,
+			);
+			name = Geographies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -659,6 +683,7 @@
 				328F18A01C63C354006D4478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		328F18A11C63C354006D4478 /* Build configuration list for PBXNativeTarget "DEMO_Swift_ProtocolsTests" */ = {
 			isa = XCConfigurationList;
@@ -667,6 +692,7 @@
 				328F18A31C63C354006D4478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		328F18A41C63C354006D4478 /* Build configuration list for PBXNativeTarget "DEMO_Swift_ProtocolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -675,6 +701,7 @@
 				328F18A61C63C354006D4478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
