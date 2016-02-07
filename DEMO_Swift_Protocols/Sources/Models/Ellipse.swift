@@ -15,8 +15,8 @@ class Ellipse: Shape {
     }
     
     convenience init(semiMajorAxis semiMajor: Length, semiMinorAxis semiMinor: Length) {
-        let π = 3.1415
-        let area = Area(unit: semiMajor.unit, value: π*semiMajor.value*semiMinor.value)
+//        let π = 3.1415
+        let area = Area(unit: semiMajor.unit, value: M_PI*semiMajor.value*semiMinor.value)
         
         self.init(area: area)
     }

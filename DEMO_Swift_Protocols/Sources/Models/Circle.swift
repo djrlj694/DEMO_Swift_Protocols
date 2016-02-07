@@ -15,8 +15,8 @@ class Circle: Shape {
     }
     
     convenience init(radius: Length) {
-        let π = 3.1415
-        let area = Area(unit: radius.unit, value: π*pow(radius.value, 2))
+//        let π = 3.1415 M_PI
+        let area = Area(unit: radius.unit, value: M_PI*pow(radius.value, 2))
         
         self.init(area: area)
     }
